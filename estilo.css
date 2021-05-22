@@ -1,0 +1,266 @@
+header {
+    background-color: white;
+}
+header a{
+    text-decoration: none;
+    
+    font-family: Quicksand;
+}
+.navegacao{
+    display: grid;
+    position: fixed;
+    left: 23.5%;
+    right: auto;
+    top: 5px; 
+    border: white solid 22px;
+    border-radius: 33px;
+    background-color: white;
+    width: 55%;
+    margin: 15px auto;
+    box-shadow:#0ef50038 0 10px 50px ;
+    
+}
+.logoinicio{
+    display: inline;
+    position: fixed; 
+    top: 25px;
+    margin-top: 0px;
+    margin-right: 10%;
+    right: auto;
+}
+.anchor-logodesktop{
+    width: 5px;
+}
+.lista1{
+    position: fixed;
+    right: 47%;
+    left: auto;
+    top: 34px;
+    
+}
+.lista1 a:hover{
+    color: rgb(58, 57, 57);
+}
+.lista1 a{
+    color: gray;
+}
+.lista1 li {
+    display: inline;
+    padding: 14px;
+    color: rgb(219, 210, 210);
+    font-weight: 550;
+    font-size: 14px;
+}
+.ctachip{
+    display: inline;
+    position: fixed;
+    right: 19.25%;
+    top: 22px; 
+    background-color: #75FE66;
+    border: #75FE66 solid 12px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin: auto auto;
+    width: 110px;
+    height: 5px;
+    font-family: Quicksand;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 11px;
+
+}
+.ctachip a{
+    
+    color: black;
+    
+
+}
+nav li{
+    display: inline;
+}
+.blocoverde{
+    background: #0EF500;
+    display: grid;
+    margin: 0 auto;
+    width: 60%;
+    height: 475px;
+    border-radius: 0 0 40px 40px;
+    opacity: 1;
+    padding: 80px 10% 35px;
+    align-items: center;
+    max-width: calc(1200px - 14%);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+
+}
+.celular{
+    display: block;
+    grid-row: 1;
+    grid-column: 2;
+    grid-column-end: auto;
+    grid-row-end: auto;
+    margin: 0 auto;
+    margin-bottom: -20px;
+}
+.textoinicio {
+    display: block;
+    font-family: Quicksand;
+    grid-row: 1;
+    grid-column-end: auto;
+    grid-column: 1;
+    grid-row-end: auto;
+    align-items: center;
+    text-align: left;
+    letter-spacing: -0.5px;
+    height: 400px;
+    width: 472px;
+    top: -45px;
+    
+
+    
+}
+.textoinicio h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 30px;
+    line-height: 56px;
+}
+.textoinicio p{
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.underlinenoonline {
+    /* display: inline; */
+    background-color: white;
+    grid-row: 1;
+    grid-column-end: auto;
+    grid-column: 1;
+    grid-row-end: auto;
+    align-items: center;
+    border: white solid 2px;
+    border-radius: 22px;
+    /* color: white; */
+    font-size: 5px;
+    height: 5px;
+    width: 75px;
+    margin-top: 140px;
+    margin-left: 30px;
+}
+.saibamais{
+    grid-row: 1;
+    grid-column-end: auto;
+    grid-column: 1;
+    grid-row-end: auto;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 400px;
+    margin-left: 0px;
+    font-family: Quicksand;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+.celularbranco h1{
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 38px;
+    color: black;
+    text-align: center;
+    margin-top: 200px;
+    line-height: 50px;
+}
+.divcelbranco{
+    padding: 3% 42% 0px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 30% 30% 30%;
+    background-color: transparent;
+    
+}
+.celularbranco img{
+    grid-row: 1;
+    grid-column-end: auto;
+    grid-column: 1;
+    grid-row-end: auto;
+
+}
+.underlineverde{
+    grid-row: 1;
+    grid-column-end: auto;
+    grid-column: 1;
+    grid-row-end: auto;
+    border: solid 2px #0ef500;
+    border-radius: 50px;
+    background-color: #0ef500;
+    width: 45px;
+    height: 7px;
+    margin-top: 55.1%; 
+    margin-left: 57%;
+} 
+.texto1celbranco {
+    display: block;
+    text-align: center;
+    grid-row: 1;
+    grid-column-end: auto;
+    grid-column: 1;
+    grid-row-end: auto;
+    margin-top: 25%;
+    font-family: Quicksand;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #373737;
+}
+.texto2celbranco {
+    display: block;
+    text-align: center;
+    grid-row: 2;
+    grid-column-end: auto;
+    grid-column: 1;
+    grid-row-end: auto;
+    margin-top: 18%;
+    font-family: Quicksand;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #949494;
+    text-decoration: line-through;
+    text-decoration-color: #dddddd ;
+}
+.texto3celbranco {
+    display: block;
+    text-align: center;
+    grid-row: 2;
+    grid-column-end: auto;
+    grid-column: 1;
+    grid-row-end: auto;
+    margin-top: 55%;
+    font-family: Quicksand;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #373737;
+}
+.linhacinza{
+    display: block;
+    text-align: center;
+    grid-row: 1;
+    grid-column-end: auto;
+    grid-column: 1;
+    grid-row-end: auto;
+    margin-top: 90%;
+    margin-left: 22%;
+    font-family: Quicksand;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: #f8f8f8 solid 1px;
+    width: 60%;
+    height: 0%;
+    
+}
