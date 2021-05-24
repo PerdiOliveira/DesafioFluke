@@ -307,6 +307,7 @@ nav li{
     font-family: Quicksand;
     font-weight: bold;
     font-size: 23px;
+    vertical-align: top;
 }
 
 .paragrafosconexao p {
@@ -315,8 +316,9 @@ nav li{
     align-items: center;
     font-family: Quicksand;
     font-size: 16px;
+    margin-top: 2.5%;
     margin-left: 9%;
-    margin-top: 0%;
     line-height: 20px;
+    vertical-align: top;
 }
 
